@@ -30,4 +30,5 @@ https://www.youtube.com/watch?v=dCSZvP5IAqc (Perhaps we could convert the video 
 https://www.youtube.com/watch?v=kLVajtkrG_4 (VR Test)
 https://stackoverflow.com/questions/68389529/overlay-video-on-video-in-moviepy
 https://www.oodlestechnologies.com/blogs/PICTURE-IN-PICTURE-effect-using-FFMPEG/ (I will opt for a picture in picture setup)
+https://superuser.com/questions/1093507/loop-a-video-overlay-with-ffmpeg
 ```
