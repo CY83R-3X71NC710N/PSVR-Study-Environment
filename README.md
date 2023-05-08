@@ -29,4 +29,5 @@ https://www.youtube.com/watch?v=JA4z8P_B2B0 (Figure out how to automate this and
 https://www.youtube.com/watch?v=dCSZvP5IAqc (Perhaps we could convert the video to pictures and then use this method?)
 https://www.youtube.com/watch?v=kLVajtkrG_4 (VR Test)
 https://stackoverflow.com/questions/68389529/overlay-video-on-video-in-moviepy
+https://www.oodlestechnologies.com/blogs/PICTURE-IN-PICTURE-effect-using-FFMPEG/ (I will opt for a picture in picture setup)
 ```
