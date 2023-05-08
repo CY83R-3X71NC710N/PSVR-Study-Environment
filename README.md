@@ -18,6 +18,7 @@ guide to upload mp4 to private youtube for use with the PSVR youtubeVR app
 Auto resolution/encoding
 Custom music
 Auto youtube-dl fetch
+requirements.txt (including movie.py library, etc.)
 
 # Thanks To:
 ```
