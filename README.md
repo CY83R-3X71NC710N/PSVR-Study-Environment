@@ -19,6 +19,7 @@ Auto resolution/encoding
 Custom music
 Auto youtube-dl fetch
 requirements.txt (including movie.py library, etc.)
+warning asking if the user would like to cut the video to make it shorter and less file size
 
 # Thanks To:
 ```
