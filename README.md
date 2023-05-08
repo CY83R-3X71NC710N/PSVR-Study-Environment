@@ -4,7 +4,7 @@ Custom PSVR study environment mp4 generator
 # Issue
 PSVR has absolutely no study environments, I found this to be an issue when I wanted to study in VR therefore I created this project allowing you to create your very own custom studyspace with custom learning resources using PSVR.
 
-Simply find a 360 VR study environment you want to use on youtube, download using youtubedl-gui then get a recording of the resources you wish to study in mp4 format. Provide both of these to the python script.
+Simply find a 360 VR study environment you want to use on youtube, download using youtubedl-gui then get a recording of the resources you wish to study in mp4 format. Provide both of these to the bash script.
 
 # What exactly does this project do?
 
