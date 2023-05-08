@@ -4,7 +4,10 @@
 
 # Interestingly the more I use this video editing setup the more I want to avoid GUI programs. This is faster and more efficient.
 
-ffmpeg -stream_loop -1 -i vr.mp4 -i test.mp4 -filter_complex "[0][1]overlay=shortest=1[v]" -map "[v]" -map 1:a -c:a copy output.mp4
-# Make sure that the second clip and the first clip match length or make sure that the overlay loops and the first clip is longer than the second clip.
+ffmpeg -i vr.mp4 \
+    -stream_loop -1 -i test.mp4 \
+    -filter_complex \
+    "[1:v]scale=250:-1[tmp];[0][tmp]overlay=shortest=1:x=10:y=10" \
+    output.mp4 # Make sure that the second clip and the first clip match length or make sure that the overlay loops and the first clip is longer than the second clip.
 
 # Let's test this now on my PSVR using the overlay to a vr file
