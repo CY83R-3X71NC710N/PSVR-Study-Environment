@@ -7,7 +7,7 @@
 ffmpeg -i vr.mp4 \
     -stream_loop -1 -i test.mp4 \
     -filter_complex \
-    "[1:v]scale=250:-1[tmp];[0][tmp]overlay=shortest=1:x=10:y=10" \
+    "[1:v]scale=250:-1[tmp];[0][tmp]overlay=shortest=1:x=0:y=0" \ # figure out how to make center probably x=0 and y=0
     output.mp4 # Make sure that the second clip and the first clip match length or make sure that the overlay loops and the first clip is longer than the second clip.
 
 # Let's test this now on my PSVR using the overlay to a vr file
