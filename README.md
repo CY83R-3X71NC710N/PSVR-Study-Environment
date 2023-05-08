@@ -14,6 +14,7 @@ What this project does is take two mp4 files, the study environment and the lear
 Build Base Working Project.
 Implement SRS
 Implement Loci Memory Palace
+guide to upload mp4 to private youtube for use with the PSVR youtubeVR app
 
 # Thanks To:
 ```
