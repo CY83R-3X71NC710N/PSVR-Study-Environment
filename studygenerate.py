@@ -1,21 +1,24 @@
 # add variables and ask statements.
 
 # import statements
-from moviepy.editor import *
+from moviepy.editor import **
 
-vr_video_path = "vr.mp4"
+output_path="output.mp4"
 
-# center this
-def add_learn(fg_in_bg_avi):
-    clip1 = VideoFileClip(fg_in_bg_avi)
-    clip3 = VideoFileClip(zm_video_path, has_mask=True)
-    video = CompositeVideoClip([clip1, clip3])
-    name = 'Output'
-    video.write_videofile(name, audio=False)  # No audio first
-    video.close()
-    return name
+video_clip = VideoFileClip((video_view), target_resolution=(1080, 1920)) #b .mp4 file
+
+overlay_clip = VideoFileClip((animeeer), has_mask=True, target_resolution=(1080, 1920)) #.mov file with alpha channel
 
 
-if __name__ == '__main__':
-    video_have_zm = add_learn("background.mp4")
+final_video = mp.CompositeVideoClip([video_clip, overlay_clip])  
+
+
+final_video.write_videofile(
+    output_path,
+    fps=30,
+    remove_temp=True,
+    codec="libx264",
+    audio_codec="aac",
+    threads = 6,
+)
 # I am still trying to figure out whether this overlay method will work with VR I don't want this only to work without VR.
