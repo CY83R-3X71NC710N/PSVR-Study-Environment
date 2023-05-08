@@ -31,4 +31,5 @@ https://www.youtube.com/watch?v=kLVajtkrG_4 (VR Test)
 https://stackoverflow.com/questions/68389529/overlay-video-on-video-in-moviepy
 https://www.oodlestechnologies.com/blogs/PICTURE-IN-PICTURE-effect-using-FFMPEG/ (I will opt for a picture in picture setup)
 https://superuser.com/questions/1093507/loop-a-video-overlay-with-ffmpeg
+https://superuser.com/questions/1689522/ffmpeg-how-to-make-the-overlay-loop-till-the-end-of-the-main-video (The real question is if we need to add the vr effect to the overlay or if we can keep it)
 ```
