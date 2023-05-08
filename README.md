@@ -11,6 +11,7 @@ Simply find a 360 VR study environment you want to use on youtube, download usin
 What this project does is take two mp4 files, the study environment and the learning resources you recorded on your computer. I take these and merge them together, the learning resource goes in the center of the study environment. After we generate the new mp4 file you should put the file on a USB stick and use PSVR media player with VR option ticked on in order to study in your study environment, you can pause/play/fast-forward as needed to get the learning resources in your head. Essentially what htis project does is combine a 360 video and adds a study overlay at center to the 360 video
 
 # Todo:
+```
 Build Base Working Project.
 Implement SRS
 Implement Loci Memory Palace
@@ -20,8 +21,8 @@ Custom music
 Auto youtube-dl fetch
 requirements.txt (including movie.py library, etc.)
 warning asking if the user would like to cut the video to make it shorter and less file size
-Guide on how to record
-
+Guide on how to record overlay
+```
 # Thanks To:
 ```
 https://www.youtube.com/watch?v=JA4z8P_B2B0 (Figure out how to automate this and center)
