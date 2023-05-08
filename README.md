@@ -15,6 +15,9 @@ Build Base Working Project.
 Implement SRS
 Implement Loci Memory Palace
 guide to upload mp4 to private youtube for use with the PSVR youtubeVR app
+Auto resolution/encoding
+Custom music
+Auto youtube-dl fetch
 
 # Thanks To:
 ```
