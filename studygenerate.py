@@ -1,12 +1,21 @@
+# add variables and ask statements.
+
+# import statements
 from moviepy.editor import *
 
-video_file = VideoFileClip('vr.mp4')
+vr_video_path = "vr.mp4"
 
-def position(t):
-    return (45*t, 0*t)
+# center this
+def add_learn(fg_in_bg_avi):
+    clip1 = VideoFileClip(fg_in_bg_avi)
+    clip3 = VideoFileClip(zm_video_path, has_mask=True)
+    video = CompositeVideoClip([clip1, clip3])
+    name = 'Output'
+    video.write_videofile(name, audio=False)  # No audio first
+    video.close()
+    return name
 
-add_text = TextClip("www.YouTube.com",fontsize=30,color="red").set_position(position).set_duration(video_file.duration)
 
-final = CompositeVideoClip([video_file,add_text])
-
-final.write_videofile("test.mp4")
+if __name__ == '__main__':
+    video_have_zm = add_learn("background.mp4")
+# I am still trying to figure out whether this overlay method will work with VR I don't want this only to work without VR.
