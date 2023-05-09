@@ -30,6 +30,7 @@ Guide on how to record overlay
 Add download video menu that allows to download youtube 360 videos directly from the tool
 Add input that allows you to start a desktop record directly from the menu.
 Add a warning that states 1920x1080 1080p 60fps videos are the standard and going below may result in a bad experience
+To find videos sort by 360 and 4-20 minutes go above if you cannot find what you are looking for. 
 ```
 # Thanks To:
 ```
