@@ -12,6 +12,7 @@ What this project does is take two mp4 files, the study environment and the lear
 
 # Todo:
 ```
+Create input menu allowing users to specify location of files as well as tick options on/off
 Build Base Working Project.
 Implement SRS
 Implement Loci Memory Palace
