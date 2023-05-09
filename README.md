@@ -29,6 +29,7 @@ warning asking if the user would like to cut the video to make it shorter and le
 Guide on how to record overlay
 Add download video menu that allows to download youtube 360 videos directly from the tool
 Add input that allows you to start a desktop record directly from the menu.
+Add a warning that states 1080p 60fps videos are the standard and going below may result in a bad experience
 ```
 # Thanks To:
 ```
