@@ -36,4 +36,4 @@ renice -5 $$
 ffmpeg -i "$OVERLAY_VIDEO" -c:v libx264 -preset ultrafast -qp 18 -c:a copy -vf "v360=eac:equirect" -b:v 4M -s "${VIDEO_WIDTH}x${VIDEO_HEIGHT}" -profile:v "$VIDEO_PROFILE" -level "$VIDEO_LEVEL" -y overlay_360.mp4
 
 # Add the converted overlay to the center of the 360 VR video
-ffmpeg -stream_loop 3 -i "$INPUT_VIDEO" -stream_loop 4 -i "$OVERLAY_VIDEO" -filter_complex "[1:v]scale=w=640:h=360[v1];[0:v][v1]overlay=(W-w)/2:(H-h)/2[v];[v]scale=w=1920:h=1080,format=yuv420p,setsar=1[v_scaled]" -map "[v_scaled]" -map "0:a" -c:v libx264 -b:v "$VIDEO_BITRATE" -r "$VIDEO_FRAMERATE" -c:a copy -profile:v "$VIDEO_PROFILE" -level "$VIDEO_LEVEL" -y "$OUTPUT_VIDEO"
+ffmpeg -stream_loop 2 -i "$INPUT_VIDEO" -stream_loop 4 -i "$OVERLAY_VIDEO" -filter_complex "[1:v]scale=w=640:h=360[v1];[0:v][v1]overlay=(W-w)/2:(H-h)/2[v];[v]scale=w=1920:h=1080,format=yuv420p,setsar=1[v_scaled]" -map "[v_scaled]" -map "0:a" -c:v libx264 -b:v "$VIDEO_BITRATE" -r "$VIDEO_FRAMERATE" -c:a copy -profile:v "$VIDEO_PROFILE" -level "$VIDEO_LEVEL" -y "$OUTPUT_VIDEO"
