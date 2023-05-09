@@ -33,6 +33,7 @@ Add a warning that states 1920x1080 1080p 60fps videos are the standard and goin
 ```
 # Thanks To:
 ```
+https://aur.archlinux.org/packages/kazam
 https://www.youtube.com/watch?v=JA4z8P_B2B0 (Figure out how to automate this and center)
 https://www.youtube.com/watch?v=dCSZvP5IAqc (Perhaps we could convert the video to pictures and then use this method?)
 https://www.youtube.com/watch?v=kLVajtkrG_4 (VR Test)
