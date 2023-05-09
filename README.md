@@ -37,6 +37,7 @@ Add a repeat y/n in option menu
 # Making Kazam Playsation Compatible
 
 Click File, Then preferences, then click on screencast and verify it is set to h264 and 60 fps (playstation must requires h264 encoding, above 30fps, and under 4GB file due to FAT32 file system)
+Next open up handbrake (https://handbrake.fr/) then select the playstation 1080p sorround sound preset, then open the file recorded and hit run.
 
 # Thanks To:
 ```
