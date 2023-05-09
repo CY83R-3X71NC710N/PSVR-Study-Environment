@@ -31,23 +31,12 @@ Add download video menu that allows to download youtube 360 videos directly from
 Add input that allows you to start a desktop record directly from the menu.
 Add a warning that states 1920x1080 1080p 60fps videos are the standard and going below may result in a bad experience (Keep the videos short as you can loop them using playstation media player repeat function just make sure to include this in it's own folder)
 To find videos sort by 360 and 4-20 minutes go above if you cannot find what you are looking for. 
+Add a repeat y/n in option menu
 ```
 
 # Making Kazam Playsation Compatible
 
-To activate the VAAPI hardware encoding in Kazam, you need to follow these steps:
-
-Open Kazam and go to Preferences by clicking on the menu button on the top right corner of the window.
-
-In the Preferences dialog box, click on the "Advanced" tab.
-
-Under the "Video" section, change the "Backend" option to "VA-API".
-
-Next, click on the "Encoding" drop-down menu and select "h264_vaapi".
-
-Click on the "Apply" button to save the changes.
-
-Now you should be able to start recording with Kazam using the VAAPI hardware encoding. Keep in mind that the quality and performance of the recording may depend on the hardware capabilities of your system.
+Click File, Then preferences, then click on screencast and verify it is set to h264 and 60 fps (playstation must requires h264 encoding, above 30fps, and under 4GB file due to FAT32 file system)
 
 # Thanks To:
 ```
