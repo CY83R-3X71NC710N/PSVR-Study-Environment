@@ -28,6 +28,7 @@ requirements.txt (including movie.py library, etc.)
 warning asking if the user would like to cut the video to make it shorter and less file size
 Guide on how to record overlay
 Add download video menu that allows to download youtube 360 videos directly from the tool
+Add input that allows you to start a desktop record directly from the menu.
 ```
 # Thanks To:
 ```
