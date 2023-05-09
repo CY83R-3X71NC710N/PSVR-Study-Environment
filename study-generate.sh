@@ -25,9 +25,9 @@ OVERLAY_HEIGHT=1080            # height of the overlay video
 # Specify output encoding parameters
 VIDEO_CODEC="libx264"          # video codec
 VIDEO_BITRATE="8M"             # video bitrate
-VIDEO_FRAMERATE="30"           # video frame rate
+VIDEO_FRAMERATE="30"           # video frame rate increase to 60 and test to see what happens
 
-# Set low priority for CPU usage
+# Set high-medium priority for CPU usage
 renice -5 $$
 
 # Convert the overlay video to a 360 VR format
