@@ -8,7 +8,11 @@ Simply find a 360 VR study environment you want to use on youtube, download usin
 
 # What exactly does this project do?
 
-What this project does is take two mp4 files, the study environment and the learning resources you recorded on your computer. I take these and merge them together, the learning resource goes in the center of the study environment. After we generate the new mp4 file you should put the file on a USB stick and use PSVR media player with VR option ticked on in order to study in your study environment, you can pause/play/fast-forward as needed to get the learning resources in your head. Essentially what htis project does is combine a 360 video and adds a study overlay at center to the 360 video
+What this project does is take two mp4 files, the study environment and the learning resources you recorded on your computer. I take these and merge them together, the learning resource goes in the center of the study environment. After we generate the new mp4 file you should put the file on a USB stick and use PSVR media player with VR option ticked on in order to study in your study environment, you can pause/play/fast-forward as needed to get the learning resources in your head. Essentially what htis project does is combine a 360 video and adds a study overlay at center to the 360 video.
+
+The con to this is you cannot actively work on assignments but rather only record the desktop and study. hence why this is a study environment and not a workspace due to playstation limitations.
+
+I suggest you loop the video using playstations autoplay feature in it's own special folder
 
 # Todo:
 ```
