@@ -41,6 +41,9 @@ Next open up handbrake (https://handbrake.fr/) then select the playstation 1080p
 
 ^ always download highest quality off youtube for VR videos typically this is webm format which is why we would need to convert with handbrake.
 
+# How to make a semi-vr active study environment (meaning you can interact)
+if you want to get a active study enviornment the best thing I can suggest is doing a PSVR firmware update, turning on bigscreen mode, hooking the psvr to the PC, and then adjusting volume on the vr headset while working using keyboard and mouse, the issue with this setup is you do not get a 360 enviornment but rather get a giant movie theatre screen.
+
 # Thanks To:
 ```
 https://aur.archlinux.org/packages/kazam
