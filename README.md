@@ -42,6 +42,7 @@ Next open up handbrake (https://handbrake.fr/) then select the playstation 1080p
 # Thanks To:
 ```
 https://aur.archlinux.org/packages/kazam
+https://handbrake.fr/
 https://www.youtube.com/@AmbientRenders/videos
 https://www.youtube.com/watch?v=JA4z8P_B2B0 (Figure out how to automate this and center)
 https://www.youtube.com/watch?v=dCSZvP5IAqc (Perhaps we could convert the video to pictures and then use this method?)
